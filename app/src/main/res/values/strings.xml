@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pratica 2Calculadora imc</string>
+    <string name="nome">Nome:</string>
+    <string name="idade">Idade:</string>
+    <string name="peso">Peso(kg):</string>
+    <string name="altura">Altura(m):</string>
+    <string name="relatorio">Relatorio Nutricional</string>
+    <string name="imc">IMC:</string>
+    <string name="classificacao">Classificação:</string>
+
+</resources>

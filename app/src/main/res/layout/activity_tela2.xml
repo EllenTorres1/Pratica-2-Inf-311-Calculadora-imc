@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".Tela_2">
+
+    <TextView
+        android:id="@+id/ViewRelatorio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/relatorio"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ViewNome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ViewRelatorio2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/nome"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TxtNome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ViewNome2"
+        android:layout_toEndOf="@+id/ViewNome2"
+        android:layout_marginStart="10dp"
+         />
+
+    <TextView
+        android:id="@+id/ViewIdade2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ViewNome2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/idade"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TxtIdade2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ViewIdade2"
+        android:layout_toEndOf="@+id/ViewIdade2"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ViewPeso2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ViewIdade2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/peso"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TxtPeso2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ViewPeso2"
+        android:layout_toEndOf="@+id/ViewPeso2"
+        android:layout_marginStart="10dp"
+         />
+
+    <TextView
+        android:id="@+id/ViewAltura2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ViewPeso2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/altura"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TxtAltura2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ViewAltura2"
+        android:layout_toEndOf="@+id/ViewAltura2"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ViewImc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ViewAltura2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/imc"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TxtImc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ViewImc2"
+        android:layout_toEndOf="@+id/ViewImc2"
+        android:layout_marginStart="10dp"
+         />
+
+    <TextView
+        android:id="@+id/ViewClassificacao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ViewImc2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/classificacao"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TxtClassificacao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ViewClassificacao2"
+        android:layout_toEndOf="@+id/ViewClassificacao2"
+        android:layout_marginStart="10dp"
+        />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TxtClassificacao2"
+        android:src="@drawable/imc_img"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
