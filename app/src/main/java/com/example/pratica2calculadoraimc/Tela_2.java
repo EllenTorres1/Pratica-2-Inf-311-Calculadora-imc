@@ -1,7 +1,9 @@
 package com.example.pratica2calculadoraimc;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -43,6 +45,12 @@ public class Tela_2 extends Activity {
             TxtImc2.setText(imc);
             TxtClassificacao2.setText(classificacao);
         }
+        Button botaoNovoCalculo = findViewById(R.id.buttonRelatorioNutricional2);
+            botaoNovoCalculo.setOnClickListener(view -> {
+            Intent intent = new Intent(Tela_2.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }
 
